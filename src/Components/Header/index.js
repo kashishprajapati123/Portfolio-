@@ -1,0 +1,5 @@
+export * from "./Aboutme"
+export * from "./Contactme"
+export * from "./Education"
+export * from "./Portfolio"
+export * from "./Skills"

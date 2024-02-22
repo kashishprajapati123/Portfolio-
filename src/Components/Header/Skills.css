@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 600px) {
+    .Skills-Outer-Div {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       .skills-section{
+           color: beige;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           /* letter-spacing: 5px; */
+           font-size: 40px;
+           text-align: center;
+           margin-top: 100px;
+           /* margin-bottom: 100px; */
+       }
+       .Skills-Inner-Div {
+           padding: 30px 0px;
+         border-radius: 20px;
+         background-color: white;
+         /* filter: blur(1px); */
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         align-items: center;
+       }
+       .Skills-Inner-Div > img {
+        width: 100px;
+        margin: auto;
+       
+       }
+       .slick-slide>div{
+           margin: 0 5px;
+       }
+       .slick-prev:before, .slick-next:before {
+          font-size: 30px;
+         
+       }
+       
+       .Skills-Name{
+           font-family: "Protest Riot";
+           font-size: 22px;
+       }
+       .Skills-levels{
+           font-size: 20px;
+           color: rgb(91, 89, 89);
+           font-weight: 700;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       
+       .Skills-text{
+           font-size: 18px;
+           padding: 0px 20px;
+       }
+}
+@media only screen and (min-width: 600px){ 
+    .Skills-Outer-Div {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       .skills-section{
+           color: beige;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           /* letter-spacing: 5px; */
+           font-size: 40px;
+           text-align: center;
+           margin-top: 50px;
+           margin-bottom: 50px;
+       }
+       .Skills-Inner-Div {
+           padding: 60px 0px;
+         border-radius: 20px;
+         background-color: white;
+         /* filter: blur(1px); */
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         align-items: center;
+       }
+       .Skills-Inner-Div > img {
+        width: 150px;
+        margin: auto;
+       
+       }
+       .slick-slide>div{
+           margin: 0 20px;
+       }
+       .slick-prev:before, .slick-next:before {
+          font-size: 40px;
+          /* font-weight: bolder;
+         padding: 7px 7px;
+         color: black;
+          background-color: rgb(254, 254, 254); */
+          border-radius: 50%;
+       }
+       
+       .Skills-Name{
+           font-family: "Protest Riot";
+           font-size: 22px;
+       }
+       .Skills-levels{
+           font-size: 20px;
+           color: rgb(91, 89, 89);
+           font-weight: 700;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       
+       .Skills-text{
+           font-size: 18px;
+           padding: 0px 20px;
+       }
+}
+@media only screen and (min-width: 768px) {
+    .Skills-Outer-Div {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 100px;
+       }
+       .skills-section{
+           color: beige;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           /* letter-spacing: 5px; */
+           font-size: 40px;
+           text-align: center;
+           margin-top: 50px;
+           margin-bottom: 50px;
+       }
+       .Skills-Inner-Div {
+           padding: 60px 0px;
+         border-radius: 20px;
+         background-color: white;
+         /* filter: blur(1px); */
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         align-items: center;
+       }
+       .Skills-Inner-Div > img {
+        width: 150px;
+        margin: auto;
+       
+       }
+       .slick-slide>div{
+           margin: 0 40px;
+       }
+       .slick-prev:before, .slick-next:before {
+          font-size: 40px;
+       }
+       
+       .Skills-Name{
+           font-family: "Protest Riot";
+           font-size: 22px;
+       }
+       .Skills-levels{
+           font-size: 20px;
+           color: rgb(91, 89, 89);
+           font-weight: 700;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       
+       .Skills-text{
+           font-size: 18px;
+       }
+}
+@media only screen and (min-width: 992px) {
+    .Skills-Outer-Div {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       .skills-section{
+           color: beige;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           /* letter-spacing: 5px; */
+           font-size: 50px;
+           text-align: center;
+           margin-top: 50px;
+           margin-bottom: 50px;
+       }
+       .Skills-Inner-Div {
+           padding: 60px 0px;
+         border-radius: 20px;
+         background-color: white;
+         /* filter: blur(1px); */
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         align-items: center;
+       }
+       .Skills-Inner-Div > img {
+        width: 150px;
+        margin: auto;
+       
+       }
+       .slick-slide>div{
+           margin: 0 20px;
+       }
+       .slick-prev:before, .slick-next:before {
+          font-size: 50px;
+       }
+       
+       .Skills-Name{
+           font-family: "Protest Riot";
+           font-size: 22px;
+       }
+       .Skills-levels{
+           font-size: 20px;
+           color: rgb(91, 89, 89);
+           font-weight: 700;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       
+       .Skills-text{
+           font-size: 18px;
+           padding: 0px 20px;
+       }
+}
+@media only screen and (min-width: 1200px) {
+   
+    .Skills-Outer-Div {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       .skills-section{
+           color: beige;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           /* letter-spacing: 5px; */
+           font-size: 50px;
+           text-align: center;
+           margin-top: 50px;
+           margin-bottom: 70px;
+           /* animation :pulse 2s infinite; */
+       }
+       .Skills-Inner-Div {
+           padding: 60px 0px;
+         border-radius: 20px;
+         background-color: white;
+         /* filter: blur(1px); */
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         align-items: center;
+       }
+       .Skills-Inner-Div > img {
+        width: 150px;
+        margin: auto;
+       
+       }
+       .slick-slide>div{
+           margin: 0 20px;
+       }
+       .slick-prev:before, .slick-next:before {
+          font-size: 40px;
+          
+       }
+       
+       .Skills-Name{
+           font-family: "Protest Riot";
+           font-size: 22px;
+       }
+       .Skills-levels{
+           font-size: 20px;
+           color: rgb(91, 89, 89);
+           font-weight: 700;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       
+       .Skills-text{
+           font-size: 18px;
+           padding: 0px 20px;
+       }
+       }

@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://cdn.pixabay.com/photo/2023/08/09/19/47/ai-generated-8180209_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .navbar {
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: height 0.2s ease, background-color 0.3s ease;
+  }
+  .navbar-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    list-style: none;
+    margin-top: 0px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    backdrop-filter: blur(50px);
+  }
+  .navbar ul#Open {
+    display: flex;
+    height: 240px;
+  }
+  .navbar-items > li {
+    padding: 15px 0px;
+  }
+  .navbar-item {
+    font-family: "Protest Riot";
+    font-size: 20px;
+    color: beige;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #Contacts {
+    /* border-radius: 50px; */
+    padding: 15px 50px;
+    background: rgb(9, 113, 121);
+    background: linear-gradient(
+      90deg,
+      rgba(9, 113, 121, 1) 0%,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(57, 120, 127, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  #Contact:focus {
+    /* color: beige; */
+    background-color: #fff;
+  }
+  .navbar-item:focus {
+    color: #f1a868;
+  }
+  .navbar .Menu {
+    display: flex;
+    position: absolute;
+    top: 0rem;
+    right: 0.75rem;
+    width: 3rem;
+    height: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navbar .Menu .Threelines {
+    height: 6rem;
+    width: 100%;
+    color: beige;
+    /* background-color: #fff; */
+    border-radius: 0.2rem;
+  }
+  .navbar .Menu .Cross {
+    height: 1.75rem;
+    margin-top: 30px;
+    width: 100%;
+    color: beige;
+    /* background-color: #fff; */
+    border-radius: 0.2rem;
+  }
+  .portfoliohide {
+    display: none;
+    visibility: hidden;
+  }
+  #Port {
+    z-index: 100;
+    display: flex;
+    position: absolute;
+    top: 1.75rem;
+    left: 2rem;
+    font-size: 35px;
+    color: beige;
+    text-decoration: none;
+    font-family: "Protest Riot";
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://cdn.pixabay.com/photo/2023/08/09/19/47/ai-generated-8180209_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .navbar {
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: height 0.2s ease, background-color 0.3s ease;
+  }
+  .navbar-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    list-style: none;
+    margin-top: 0px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    backdrop-filter: blur(50px);
+  }
+  .navbar ul#Open {
+    display: flex;
+    height: 240px;
+  }
+  .navbar-items > li {
+    padding: 15px 0px;
+  }
+  .navbar-item {
+    font-family: "Protest Riot";
+    font-size: 20px;
+    color: beige;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #Contacts {
+    /* border-radius: 50px; */
+    padding: 15px 50px;
+    background: rgb(9, 113, 121);
+    background: linear-gradient(
+      90deg,
+      rgba(9, 113, 121, 1) 0%,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(57, 120, 127, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  #Contact:focus {
+    /* color: beige; */
+    background-color: #fff;
+  }
+  .navbar-item:focus {
+    color: #f1a868;
+  }
+  .navbar .Menu {
+    display: flex;
+    position: absolute;
+    top: 0rem;
+    right: 0.75rem;
+    width: 3rem;
+    height: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navbar .Menu .Threelines {
+    height: 6rem;
+    width: 100%;
+    color: beige;
+    /* background-color: #fff; */
+    border-radius: 0.2rem;
+  }
+  .navbar .Menu .Cross {
+    height: 1.75rem;
+    margin-top: 30px;
+    width: 100%;
+    color: beige;
+    /* background-color: #fff; */
+    border-radius: 0.2rem;
+  }
+  .portfoliohide {
+    display: none;
+    visibility: hidden;
+  }
+  #Port {
+    z-index: 100;
+    display: flex;
+    position: absolute;
+    top: 1.75rem;
+    left: 2rem;
+    font-size: 35px;
+    color: beige;
+    text-decoration: none;
+    font-family: "Protest Riot";
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://cdn.pixabay.com/photo/2023/08/09/19/47/ai-generated-8180209_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  .navbar {
+    backdrop-filter:blur(0);
+  background-color: rgba(0, 0, 0,0);
+  }
+  .navbar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-top: 50px;
+  }
+  .navbar-item {
+    font-family: "Protest Riot";
+    font-size: 17px;
+    color: beige;
+    text-decoration: none;
+  }
+  .navbar-item:focus {
+    color: #f1a868;
+  }
+  #Portfolio {
+    font-size: 35px;
+  }
+  .portfoliohide {
+    display: flex;
+    visibility: visible;
+  }
+  #Contacts {
+    background: none;
+  }
+  .navbar .Menu {
+    display: none;
+    position: absolute;
+    top: 0rem;
+    right: 0.75rem;
+    width: 3rem;
+    height: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navbar .Menu .Threelines {
+    height: 5rem;
+    width: 100%;
+    color: beige;
+    /* background-color: #fff; */
+    border-radius: 0.2rem;
+  }
+  #Port {
+    display: none;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://cdn.pixabay.com/photo/2023/08/09/19/47/ai-generated-8180209_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  .navbar {
+    padding-top: 15px;
+  }
+  .navbar-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  .navbar-item {
+    font-family: "Protest Riot";
+    font-size: 18px;
+    color: beige;
+    text-decoration: none;
+  }
+  .navbar-item:focus {
+    color: #f1a868;
+  }
+  #Portfolio {
+    font-size: 40px;
+  }
+  #Contacts {
+    background: none;
+  }
+  .navbar .Menu {
+    display: none;
+    position: absolute;
+    top: 0rem;
+    right: 0.75rem;
+    width: 3rem;
+    height: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navbar .Menu .Threelines {
+    height: 5rem;
+    width: 100%;
+    color: beige;
+    /* background-color: #fff; */
+    border-radius: 0.2rem;
+  }
+  #Port {
+    display: none;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://cdn.pixabay.com/photo/2023/08/09/19/47/ai-generated-8180209_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .navbar {
+    padding-top: 0;
+  }
+  .navbar-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  .navbar-item {
+    font-family: "Protest Riot";
+    font-size: 20px;
+    color: beige;
+    text-decoration: none;
+  }
+  .navbar-item:focus {
+    color: #f1a868;
+  }
+  #Portfolio {
+    display: flex;
+    font-size: 60px;
+  }
+  #Contacts {
+    background: none;
+  }
+  .navbar .Menu {
+    display: none;
+    position: absolute;
+    top: 0rem;
+    right: 0.75rem;
+    width: 3rem;
+    height: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navbar .Menu .Threelines {
+    height: 5rem;
+    width: 100%;
+    color: beige;
+    /* background-color: #fff; */
+    border-radius: 0.2rem;
+  }
+  #Port {
+    display: none;
+  }
+}
