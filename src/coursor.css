@@ -1,0 +1,14 @@
+/* src/components/CursorTrail.css */
+.trail {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 15px solid #20b5f4;
+    border-right: 15px solid #46788e;
+    border-left: 15px solid #145571;
+    border-bottom: 15px solid #c6e7f6;
+    animation:spin infinite ease-in-out;
+    border-radius: 50%;
+    pointer-events: none;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
